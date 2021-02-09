@@ -9,6 +9,7 @@ public class MainArr {
         int[] b = {1, 1, 1, 4, 4, 4, 1, 4, 1};
         int[] c = {3, 2, 1, 9, 1, 7, 7};
 
+
         System.out.println(Arrays.toString(Arr(a)));
         System.out.println(Arr2(c));
         System.out.println(Arr2(b));
@@ -35,7 +36,6 @@ public class MainArr {
         }
         return newArr;
     }
-
 
     public static boolean Arr2(int[] arr){
         for (int i = 0; i < arr.length; i++) {
