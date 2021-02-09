@@ -13,6 +13,7 @@ public class MainArr {
         System.out.println(Arrays.toString(Arr(a)));
         System.out.println(Arr2(c));
         System.out.println(Arr2(b));
+        System.out.println("Final");
 
     }
 
